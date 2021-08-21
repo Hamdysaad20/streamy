@@ -125,7 +125,8 @@ body{
     overflow-x: hidden;
     padding-top: 5px;
     margin-left: 10px;
-    display: flex;
+    display: grid;
+
     flex-wrap: wrap;
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -203,7 +204,16 @@ font-size:50px;
 margin-left:270px;
 margin-top:-45px;
 z-index:3;
+transition: transform .2s;
+
 }
+.text-3-icon:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+
+}
+
 .hkh{
     z-index:5;
 }
@@ -517,7 +527,7 @@ border-radius:10px;
 
 
 .main-page-div{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
 }
 .img-1:hover{ 
@@ -574,4 +584,82 @@ border-radius:10px;
     -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.02); 
+}
+.cardw1{
+    background-color:#3FBDF4;
+    height:430px;
+    width:330px;
+    position:absolute;
+    margin-left: 70px;
+    margin-right:0px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform .2s;
+
+}
+.cardw2{
+    background-color:#3FF4D0;
+    height:430px;
+    width:330px;
+    position:absolute;
+    margin-left: 420px;
+    margin-right:0px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform .2s;
+
+}
+.cardw3{
+    background-color:#3FF476;
+    height:430px;
+    width:330px;
+    position:absolute;
+    margin-left: 770px;
+    margin-right:0px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform .2s;
+
+}
+.cardw4{
+    background-color:#F4D03F;
+    height:430px;
+    width:330px;
+    position:absolute;
+    margin-left: 1120px;
+    margin-right:0px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform .2s;
+
+}
+.cardw1:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+}
+.cardw2:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+}
+.cardw3:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+}
+.cardw4:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+}
+.flex-box-card{
+    display: flex;
+    flex-wrap: wrap;
+    order: 5;
+    flex-wrap: nowrap | wrap | wrap-reverse;
 }
