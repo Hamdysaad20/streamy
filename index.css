@@ -1,0 +1,501 @@
+.main-left-menu {
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 0px;
+
+}
+.left-header{
+    height: 75px;
+    width: 75px;
+    margin-left: 15px;
+    margin-right: 25px;
+    background-color: #181818;
+    margin-bottom: 0px;
+padding-bottom: 0px;
+transition: transform .2s; /* Animation */
+
+
+}
+.left-header:hover{
+    transform: scale(1.2);
+}
+.logo {
+    background-color: #181818;
+
+}
+.main-menu {
+    height:50%;
+    width: 90px;
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+    left: 0;
+    background-color: #181818;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 0px;
+
+}
+.home{
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+transition: transform .2s; /* Animation */
+border-radius:20%;
+
+
+}
+.explore{
+  padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    transition: transform .2s; /* Animation */
+    border-radius:20%;
+
+}
+.podcast{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    transition: transform .2s; /* Animation */
+    border-radius:20%;
+
+}
+.library{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    transition: transform .2s; /* Animation */
+    border-radius:20%;
+
+}
+.radio{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    transition: transform .2s; /* Animation */
+    border-radius:20%;
+
+}
+.home:hover{
+    transform: scale(1.2);
+    background-color:#414141;
+
+}
+.explore:hover{
+    transform: scale(1.2);
+    background-color:#414141;
+
+}
+.podcast:hover{
+    transform: scale(1.2);
+    background-color:#414141;
+
+}
+.library:hover{
+    transform: scale(1.2);
+    background-color:#414141;
+
+}
+.radio:hover{
+    transform: scale(1.2);
+    background-color:#414141;
+
+
+}
+body{
+    background-color:#181818;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    height: 100%;
+    width: 1500px;
+    position: fixed;
+   margin-top: 90px;
+    left: 40px;
+    background-color: #181818;
+    overflow-x: hidden;
+    padding-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .main {
+      position:absolute;
+   
+   margin-top: 190px;
+   margin-left:750px;
+
+  }
+  .left-header:hover{
+
+  }
+
+
+  * {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.main-right-menu{
+    background-color:#2e2e2e;
+    height:700px;
+    width:330px;
+    position:absolute;
+    margin-left: 1570px;
+    margin-top:90px;
+    margin-right:0px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.textiner-3{
+    height:40px;
+    width:330px;
+    border-radius
+font-size:50px;
+}
+.text-3{
+    font-size:1.25rem;
+    font-family:"Gill Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top:30px;
+ color:white;
+    padding-right:120px;
+}
+.text-3-icon{
+    height:30px;
+    width:30px;
+font-size:50px;
+margin-left:270px;
+margin-top:-45px;
+z-index:3;
+}
+.hkh{
+    z-index:5;
+}
+.artist-last-released{
+    padding-top:30px;
+    padding-right:120px;
+    background-color:#2e2e2e;
+    height:520px;
+    width:270px;
+margin-left:25px;
+overflow: scroll;
+overflow-x: hidden; 
+scroll
+ar-width: thin;
+border-radius:10px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+    background: transparent;  /* Optional: just make scrollbar invisible */
+
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.pos-artist-released-1{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    margin-top:-30px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-2{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-3{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-4{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+
+.pos-artist-released-6{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-7{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-8{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-9{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-10{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+.pos-artist-released-11{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
+
+
+.img-1{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+
+}
+.img-2{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+.img-3{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+.img-4{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-5{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-6{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-7{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-8{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-9{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-10{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+.img-11{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+}
+
+
+.artist-name-released1{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+
+.artist-name-released2{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+
+.artist-name-released3{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+
+.artist-name-released4{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released5{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released6{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released7{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released8{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+
+.artist-name-released9{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released10{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+.artist-name-released11{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
+
+
+
+.main-page-div{
+    display: flex;
+    flex-wrap: wrap;
+}
