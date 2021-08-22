@@ -596,6 +596,8 @@ border-radius:10px;
     display: flex;
     flex-wrap: wrap;
     transition: transform .2s;
+    overflow:hidden;
+
 
 }
 .cardw2{
@@ -609,6 +611,8 @@ border-radius:10px;
     display: flex;
     flex-wrap: wrap;
     transition: transform .2s;
+    overflow:hidden;
+
 
 }
 .cardw3{
@@ -622,6 +626,8 @@ border-radius:10px;
     display: flex;
     flex-wrap: wrap;
     transition: transform .2s;
+    overflow:hidden;
+
 
 }
 .cardw4{
@@ -635,31 +641,51 @@ border-radius:10px;
     display: flex;
     flex-wrap: wrap;
     transition: transform .2s;
+    overflow:hidden;
 
 }
 .cardw1:hover{
     -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.02); 
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f2f2f;
 }
 .cardw2:hover{
     -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.02); 
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f2f2f;
+  
 }
 .cardw3:hover{
     -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02); 
+  transform: scale(1.02);
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f2f2f; 
 }
 .cardw4:hover{
     -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02); 
+  transform: scale(1.02);
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f2f2f; 
 }
 .flex-box-card{
     display: flex;
     flex-wrap: wrap;
     order: 5;
     flex-wrap: nowrap | wrap | wrap-reverse;
+}
+.lolo{
+    margin-left:90px;
+}
+.lala{
+    margin-top:40px;
 }
