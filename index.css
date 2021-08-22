@@ -111,24 +111,34 @@ border-radius:20%;
 
 }
 body{
-    background-color:#181818;
+    background-color:#181818!important;
     display: flex;
     flex-wrap: wrap;
+    overflow:scroll;
+    overflow-y: scroll;
+    overflow: hidden;
+    overflow-x:hidden;
+    
+
 }
 .content{
+    overflow:scroll;
+
     height: 100%;
     width: 1500px;
     position: fixed;
    margin-top: 90px;
     left: 40px;
     background-color: #181818;
-    overflow-x: hidden;
     padding-top: 5px;
     margin-left: 10px;
     display: grid;
-
+    overflow-y: scroll;
     flex-wrap: wrap;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 
@@ -321,6 +331,14 @@ border-radius:10px;
     z-index:4;
 
 }
+.pos-artist-released-12{
+    background-color:#2e2e2e;
+    height:70px;
+    width:270px;
+    padding-bottom:5px;
+    z-index:4;
+
+}
 
 
 .img-1{
@@ -418,6 +436,15 @@ border-radius:10px;
     transition: transform .2s;
 
 }
+.img-12{
+    border-radius:100%;
+    height:60px;
+    width:60px;
+    margin-top:4px;
+    transition: transform .2s;
+
+}
+
 
 
 .artist-name-released1{
@@ -523,6 +550,15 @@ border-radius:10px;
  color:white;
  z-index:8;
 }
+.artist-name-released12{
+    font-family: "Source Sans Pro", sans-serif;
+    cursor:pointer !important;
+    font-weight: 700;
+    margin-top:-50px;
+    padding-left:70px;
+ color:white;
+ z-index:8;
+}
 
 
 
@@ -597,6 +633,7 @@ border-radius:10px;
     flex-wrap: wrap;
     transition: transform .2s;
     overflow:hidden;
+    animation: leaves 4s ease-in-out infinite alternate;
 
 
 }
@@ -612,6 +649,7 @@ border-radius:10px;
     flex-wrap: wrap;
     transition: transform .2s;
     overflow:hidden;
+    animation: leaves 2s ease-in-out infinite alternate;
 
 
 }
@@ -627,6 +665,7 @@ border-radius:10px;
     flex-wrap: wrap;
     transition: transform .2s;
     overflow:hidden;
+    animation: leaves 5s ease-in-out infinite alternate;
 
 
 }
@@ -642,40 +681,58 @@ border-radius:10px;
     flex-wrap: wrap;
     transition: transform .2s;
     overflow:hidden;
+    animation: leaves 3s ease-in-out infinite alternate;
 
 }
+
+@keyframes leaves {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+
+
 .cardw1:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02); 
   border-style: solid;
   border-width: 5px;
   border-color: #2f2f2f;
+  opacity: 0.75;
+
+
+}
+.f65{
+
+
 }
 .cardw2:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02); 
+; 
+
   border-style: solid;
   border-width: 5px;
   border-color: #2f2f2f;
-  
+  opacity: 0.75;
+
 }
+
 .cardw3:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02);
+
   border-style: solid;
   border-width: 5px;
   border-color: #2f2f2f; 
+  opacity: 0.75;
+
 }
 .cardw4:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.02);
+
   border-style: solid;
   border-width: 5px;
   border-color: #2f2f2f; 
+  opacity: 0.75;
+
 }
 .flex-box-card{
     display: flex;
@@ -684,8 +741,108 @@ border-radius:10px;
     flex-wrap: nowrap | wrap | wrap-reverse;
 }
 .lolo{
-    margin-left:90px;
+    margin-left:60px;
 }
 .lala{
     margin-top:40px;
 }
+
+.alboms-promos-1{
+    height:165px;
+    width:165px;
+    background-color:#181818;
+ position:absolute;
+    margin-left:1120px;
+    margin-top:450px;
+    border-radius:5px;
+    border-top-left-radius: 25px;
+  }
+.kha-11{
+    height:165px;
+    width:165px;
+    position:absolute;
+    border-radius:5px;
+    border-top-left-radius: 25px;
+
+}
+
+.alboms-promos-2{
+    height:165px;
+    width:165px;
+    background-color:#181818;
+ position:absolute;
+    margin-left:1290px;
+    margin-top:450px;
+    border-radius:5px;
+    border-top-right-radius: 25px;
+
+}
+.kha2{
+    height:165px;
+    width:165px;
+    background-color:#181818;
+ position:absolute;
+ border-radius:5px;
+ border-top-right-radius: 25px;
+
+
+}
+
+.alboms-promos-3{
+    height:165px;
+    width:165px;
+    background-color:#181818;
+ position:absolute;
+    margin-left:1120px;
+    margin-top:620px;
+    border-radius:5px;
+    z-index:2;
+    border-bottom-left-radius: 25px;
+
+}
+.kha3{
+    height:165px;
+    width:165px;
+    border-radius:5px;
+    z-index:2;
+    border-bottom-left-radius: 25px;
+}
+.alboms-promos-4{
+    height:165px;
+    width:165px;
+    background-color:#181818;
+ position:absolute;
+    margin-left:1290px;
+    margin-top:620px;
+    border-radius:5px;
+    z-index:2;
+    border-bottom-right-radius: 25px;
+
+}
+.kha4{
+    height:165px;
+    width:165px;
+    border-radius:5px;
+    z-index:2;
+    border-bottom-right-radius: 25px;
+
+}
+
+.kha-11:hover{
+opacity:0.75
+
+
+}
+.kha2:hover{
+    opacity:0.75
+    
+    }
+.kha3:hover{
+        opacity:0.75
+        
+        }
+.kha4:hover{
+            opacity:0.75
+            
+            }
+                        
