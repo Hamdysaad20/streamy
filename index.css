@@ -191,6 +191,8 @@ body{
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
+    overflow: scroll; /* Show scrollbars */
+
 }
 .textiner-3{
     height:40px;
@@ -234,10 +236,11 @@ transition: transform .2s;
     height:520px;
     width:270px;
 margin-left:25px;
-overflow: scroll;
+overflow-y: scroll;
 overflow-x: hidden; 
-scroll
-ar-width: thin;
+
+
+
 border-radius:10px;
 
 }
