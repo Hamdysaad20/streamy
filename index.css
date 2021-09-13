@@ -123,7 +123,6 @@ body{
 }
 .content{
     overflow:scroll;
-
     height: 100%;
     width: 1500px;
     position: fixed;
@@ -136,8 +135,37 @@ body{
     overflow-y: scroll;
     flex-wrap: wrap;
     overflow-x: hidden; /* Hide horizontal scrollbar */
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 
 }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  ​
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  ​
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  ​
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  ​
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
@@ -192,7 +220,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     overflow: scroll; /* Show scrollbars */
-
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
 }
 .textiner-3{
     height:40px;
@@ -201,7 +232,7 @@ body{
 font-size:50px;
 }
 .text-3{
-    font-size:1.25rem;
+    font-size:1.25rem !important;
     font-family:"Gill Sans", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -848,4 +879,96 @@ opacity:0.75
             opacity:0.75
             
             }
-                        
+       
+            
+
+.player{
+height: 130px !important;
+width: 90% !important;
+ background-color: #2e2e2e !important;
+ position: fixed !important;
+ z-index: 313 !important;
+ display: flex !important;
+ bottom: 0px !important;
+ left: 90px !important;
+ right: 5px !important;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+
+}
+.controlers{
+    height: 90px;
+    width: 30%;
+     background-color: #181818;
+     position: fixed;
+     z-index: 320;
+     display: flex;
+     bottom: 0px;
+     left: 35%;
+     right: 40%;
+   
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.artist_artplayer{
+    height: 90px;
+    width: 90px;
+     position: fixed;
+     z-index: 320;
+     display: flex;
+     bottom: 0px;
+     left: 7%;
+     right: 50%;
+   
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #181818;
+}
+.player_image{
+    height: 90px;
+    width: 90px;
+     position: fixed;
+     z-index: 320;
+     display: flex;
+     bottom: 0px;
+     left: 7%;
+     right: 50%;
+   
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.player_image:hover{
+    opacity: 0.8;
+}
+
+.artist_player_name{
+    position: fixed;
+    z-index: 320;
+    display: flex;
+    bottom: 65px;
+    left: 12.6%;
+    right: 50%;
+    color: #f1f1f1;
+    font-size: 1.3rem !important;
+}
+.song_player{
+    position: fixed;
+    z-index: 350;
+    display: flex;
+    bottom: 45px;
+    left: 12.6%;
+    right: 50%;
+    color: #c4c2c2;
+    font-size: 1rem;
+}
+.player_credit_artist{
+    color: #bebebe;
+
+}
+.player_credit_artist:hover{
+    color: #ffffff !important;
+    text-shadow: #181818;
+    text-decoration: underline;
+
+
+}
